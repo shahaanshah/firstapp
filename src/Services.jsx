@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import Cards from "./Cards"
 import Sdata from "./Sdata"
-import ServicesApi from "./ServicesApi"
+// import ServicesApi from "./ServicesApi"
 
 
-const Services = () => {
+const Services = ({ServicesApi}) => {
       const [serviceData,  setServiceData] = useState(ServicesApi)
+      console.log(ServicesApi)
 
       return (
             <>
@@ -14,7 +15,7 @@ const Services = () => {
                               <div className="main-heading text-center ">
                                     <h1> How To Send Money </h1>
 
-                                    <div className="row ">
+                                    {/* <div className="row ">
                                           {serviceData.map((currelem) => {
                                                 const { id, logo, title, info } = currelem
                                                 return (
@@ -28,7 +29,7 @@ const Services = () => {
                                                 )
                                           })}
 
-                                    </div>
+                                    </div> */}
 
                               </div>
 

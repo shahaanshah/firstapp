@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import Nav from './Nav';
 import Header from './Header'
-
 import Contact from './Contact';
 import About from './About';
 import Services from './Services';
 import HowItWork from './HowItwork'
 import Footer from './Footer';
+import Video from './Video'
 
 
 
@@ -33,16 +33,17 @@ const Home = () => {
 
         <>
              
-      
-            <Nav/>
+{/*       
+             <Nav/>
             <Header/>
             <HowItWork/>
             <About/>
             <Services/>
             <Contact/>
-            <Footer/>  
+            <Footer/>    */}
+            
         
-        
+        <Video/>
 
         </>
     )

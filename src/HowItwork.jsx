@@ -1,9 +1,9 @@
 import Aos from "aos";
 import React, { useState } from "react";
 import { useEffect } from "react";
-import Sdata from "./Sdata";
+ import Sdata from "./Sdata";
 
-function HowItwork() {
+function HowItwork({}) {
   const [data, setData] = useState(Sdata);
 
   return (
